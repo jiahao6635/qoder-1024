@@ -1,0 +1,14 @@
+# Local build and verification output
+output/
+**/build/
+tools/downloads/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
